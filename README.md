@@ -13,3 +13,23 @@
 Link para acceder a la pagina web:
 
 [Links](https://jesusocampo1105.github.io/TravelPage/)
+
+
+# Documentación técnica:
+
+- Realizamos una estructura de HTML semantico creando el Header, Main y el Footer.
+
+- [x] Header: se creo el menu de navegacion principal con una lista desordenada
+![image](https://user-images.githubusercontent.com/70729836/194179500-ac214cff-c3c2-4dc1-81ff-d4782a0651aa.png)
+
+
+- [x] Main: Se creo una portada con mucho color que llamara la atencion, seguido de un menu de ciudades donde se puede ver cosas adicionales de la misma
+
+![image](https://user-images.githubusercontent.com/70729836/194179596-4944223f-30eb-493d-ab32-bc5f4d9add0d.png)
+
+![image](https://user-images.githubusercontent.com/70729836/194179644-aaa7b836-74b7-474b-b670-d4c94f965276.png)
+
+
+- [x] Footer: se agrego uyna lista desordenada que llevan a algunas paginas aparte con informacion adicional e imagenes de las redes sociales para que los envien directamente a la cuenta del creador de la pagina web
+
+![image](https://user-images.githubusercontent.com/70729836/194179730-d5179a11-797e-419c-a9b9-95e989295f66.png)
