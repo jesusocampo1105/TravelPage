@@ -10,6 +10,6 @@
 
 - Y por ultimo alguna informacion de contacto (En el footer) para quien nos desee contactar y obtener mas informacion de lo anteriormente presentado:
 
-Link paraacceder a la pagina web:
+Link para acceder a la pagina web:
 
-[Links](http://localhost/)
+[Links](https://jesusocampo1105.github.io/TravelPage/)
