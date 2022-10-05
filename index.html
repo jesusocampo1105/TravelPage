@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Viajando ando</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="section1">
+          <a href="">Inicio</a>
+          <a href="#slide-item">Portada</a>
+          <a href="#tittle1">Viajes</a>
+          <a href="#list-footer">Sobre mi</a>
+        </div>
+
+        <div class="section2">
+          <img src="./Img/Cubo3d.png" alt="Cubo3D" />
+          <p>Viajes</p>
+        </div>
+      </div>
+      <hr />
+    </header>
+
+    <main>
+      <div class="slide">
+        <div class="slide-inner">
+          <p class="text">
+            Conoce esta aventura que <br />hemos recorrido por Colombia<br />
+            y sus maravillas...
+          </p>
+          <button class="button">Conoce más</button>
+          <input
+            class="slide-open"
+            type="radio"
+            id="slide-1"
+            name="slide"
+            aria-hidden="true"
+            hidden=""
+            checked="checked"
+          />
+          <div class="slide-item" id="slide-item">
+            <img src="./Img/paisaje2.jpeg" />
+          </div>
+          <input
+            class="slide-open"
+            type="radio"
+            id="slide-2"
+            name="slide"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="slide-item">
+            <img src="./Img/Paisaje3.jpeg" />
+          </div>
+          <input
+            class="slide-open"
+            type="radio"
+            id="slide-3"
+            name="slide"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="slide-item">
+            <img src="./Img/paisaje1.jpg" />
+          </div>
+          <label for="slide-3" class="slide-control prev control-1">‹</label>
+          <label for="slide-2" class="slide-control next control-1">›</label>
+          <label for="slide-1" class="slide-control prev control-2">‹</label>
+          <label for="slide-3" class="slide-control next control-2">›</label>
+          <label for="slide-2" class="slide-control prev control-3">‹</label>
+          <label for="slide-1" class="slide-control next control-3">›</label>
+          <ol class="slide-indicador">
+            <li>
+              <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+              <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+              <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <h1 class="tittle1" id="tittle1">
+        Conoce cada viaje realizado y la experiencia que nos dejo...
+      </h1>
+
+      <ul class="list">
+        <li class="btn-boyaca">Boyaca</li>
+        <li class="btn-buenaventura">Buenaventura</li>
+        <li class="btn-medellin">Medellin</li>
+        <li class="btn-quindio">Quindio</li>
+        <li class="btn-silvania">Silvania</li>
+        <li class="btn-villadeleyva">Villa de leyva</li>
+        <li class="btn-villavicencio">Villavicencio</li>
+        <li class="btn-zipaquira">Zipaquira</li>
+      </ul>
+
+      <div class="section3">
+        <div class="part1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus inventore, quas deleniti laboriosam odio iure
+            doloremque quia perspiciatis consequatur amet incidunt tempore
+            placeat, tempora mollitia? Molestias deleniti reiciendis maiores
+            ver!
+          </p>
+          <img src="./Img/paisaje7.jpeg" alt="Imagen" />
+        </div>
+
+        <div class="part2">
+          <img src="./Img/paisaje4.jpeg" alt="Imagen" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <div>
+          <ul class="list-footer" id="list-footer">
+            <li>Comunidad</li>
+            <li>Compañias</li>
+            <li><img src="./Img/Cubo3d.png" alt="Cubo3d" />Viajes</li>
+            <li>Mesa de ayuda</li>
+            <li>Blog</li>
+          </ul>
+          <hr />
+        </div>
+        <br>
+        <div>
+            <ul class="icons-footer">
+                <li><img src="./Img/LogoFB2.png" alt=""></li>
+                <li><img src="./Img/LogoLinkedin.png" alt=""></li>
+                <li><img src="./Img/LogoTwitter.png" alt=""></li>
+                <li><img src="./Img/LogoIG.png" alt=""></li>
+            </ul>
+        </div>
+      </div>
+      <p>@ Viajes, Inc. 2022. Conociendo Colombia!</p>
+    </footer>
+  </body>
+</html>
